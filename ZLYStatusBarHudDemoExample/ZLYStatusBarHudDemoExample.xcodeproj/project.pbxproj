@@ -13,8 +13,8 @@
 		059D82441DD5A6AC00F71FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059D82421DD5A6AC00F71FE8 /* Main.storyboard */; };
 		059D82461DD5A6AC00F71FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059D82451DD5A6AC00F71FE8 /* Assets.xcassets */; };
 		059D82491DD5A6AC00F71FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059D82471DD5A6AC00F71FE8 /* LaunchScreen.storyboard */; };
-		059D82541DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D82531DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleTests.m */; };
-		059D825F1DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D825E1DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m */; };
+		059D82541DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D82531DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests.m */; };
+		059D825F1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D825E1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests.m */; };
 		059D82701DD5A72A00F71FE8 /* ZLYStatusBarHud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 059D826D1DD5A72A00F71FE8 /* ZLYStatusBarHud.bundle */; };
 		059D82711DD5A72A00F71FE8 /* ZLYStatusBarHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 059D826F1DD5A72A00F71FE8 /* ZLYStatusBarHud.m */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		059D82361DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		059D82361DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLYStatusBarHudDemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		059D823A1DD5A6AC00F71FE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		059D823C1DD5A6AC00F71FE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		059D823D1DD5A6AC00F71FE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,11 +47,11 @@
 		059D82451DD5A6AC00F71FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059D82481DD5A6AC00F71FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059D824A1DD5A6AC00F71FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		059D824F1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		059D82531DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleTests.m; sourceTree = "<group>"; };
-		059D82551DD5A6AC00F71FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		059D825A1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		059D825E1DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m; sourceTree = "<group>"; };
+		059D824F1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYStatusBarHudDemoExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059D82531DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ZLYStatusBarHudDemoExampleTests.m; path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests/ZLYStatusBarHudDemoExampleTests.m"; sourceTree = SOURCE_ROOT; };
+		059D82551DD5A6AC00F71FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests/Info.plist"; sourceTree = SOURCE_ROOT; };
+		059D825A1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLYStatusBarHudDemoExample.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		059D825E1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLYStatusBarHudDemoExampleUITests.m; sourceTree = "<group>"; };
 		059D82601DD5A6AC00F71FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		059D826D1DD5A72A00F71FE8 /* ZLYStatusBarHud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZLYStatusBarHud.bundle; sourceTree = "<group>"; };
 		059D826E1DD5A72A00F71FE8 /* ZLYStatusBarHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLYStatusBarHud.h; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		059D822D1DD5A6AC00F71FE8 = {
 			isa = PBXGroup;
 			children = (
-				059D82381DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample */,
-				059D82521DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests */,
-				059D825D1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests */,
+				059D82381DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample */,
+				059D82521DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests */,
+				059D825D1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests */,
 				059D82371DD5A6AC00F71FE8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,14 +96,14 @@
 		059D82371DD5A6AC00F71FE8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				059D82361DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample.app */,
-				059D824F1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests.xctest */,
-				059D825A1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests.xctest */,
+				059D82361DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.app */,
+				059D824F1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.xctest */,
+				059D825A1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		059D82381DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample */ = {
+		059D82381DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample */ = {
 			isa = PBXGroup;
 			children = (
 				059D826C1DD5A72A00F71FE8 /* ZLY_StatusBarHud */,
@@ -113,36 +113,39 @@
 				059D82401DD5A6AC00F71FE8 /* ViewController.m */,
 				059D82421DD5A6AC00F71FE8 /* Main.storyboard */,
 				059D82451DD5A6AC00F71FE8 /* Assets.xcassets */,
-				059D82471DD5A6AC00F71FE8 /* LaunchScreen.storyboard */,
 				059D824A1DD5A6AC00F71FE8 /* Info.plist */,
+				059D823A1DD5A6AC00F71FE8 /* main.m */,
+				059D82531DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests.m */,
+				059D82551DD5A6AC00F71FE8 /* Info.plist */,
+				059D82471DD5A6AC00F71FE8 /* LaunchScreen.storyboard */,
 				059D82391DD5A6AC00F71FE8 /* Supporting Files */,
 			);
+			name = ZLYStatusBarHudDemoExample;
 			path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
 			sourceTree = "<group>";
 		};
 		059D82391DD5A6AC00F71FE8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				059D823A1DD5A6AC00F71FE8 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		059D82521DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests */ = {
+		059D82521DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				059D82531DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleTests.m */,
-				059D82551DD5A6AC00F71FE8 /* Info.plist */,
 			);
+			name = ZLYStatusBarHudDemoExampleTests;
 			path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests";
 			sourceTree = "<group>";
 		};
-		059D825D1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests */ = {
+		059D825D1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				059D825E1DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m */,
+				059D825E1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests.m */,
 				059D82601DD5A6AC00F71FE8 /* Info.plist */,
 			);
+			name = ZLYStatusBarHudDemoExampleUITests;
 			path = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests";
 			sourceTree = "<group>";
 		};
@@ -160,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		059D82351DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample */ = {
+		059D82351DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059D82631DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLY_StatusBarHud ZLYStatusBarHudDemoExample" */;
+			buildConfigurationList = 059D82631DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLYStatusBarHudDemoExample" */;
 			buildPhases = (
 				059D82321DD5A6AC00F71FE8 /* Sources */,
 				059D82331DD5A6AC00F71FE8 /* Frameworks */,
@@ -172,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
+			name = ZLYStatusBarHudDemoExample;
 			productName = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
-			productReference = 059D82361DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample.app */;
+			productReference = 059D82361DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		059D824E1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests */ = {
+		059D824E1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059D82661DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests" */;
+			buildConfigurationList = 059D82661DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLYStatusBarHudDemoExampleTests" */;
 			buildPhases = (
 				059D824B1DD5A6AC00F71FE8 /* Sources */,
 				059D824C1DD5A6AC00F71FE8 /* Frameworks */,
@@ -190,14 +193,14 @@
 			dependencies = (
 				059D82511DD5A6AC00F71FE8 /* PBXTargetDependency */,
 			);
-			name = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests";
+			name = ZLYStatusBarHudDemoExampleTests;
 			productName = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests";
-			productReference = 059D824F1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests.xctest */;
+			productReference = 059D824F1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		059D82591DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests */ = {
+		059D82591DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 059D82691DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests" */;
+			buildConfigurationList = 059D82691DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLYStatusBarHudDemoExampleUITests" */;
 			buildPhases = (
 				059D82561DD5A6AC00F71FE8 /* Sources */,
 				059D82571DD5A6AC00F71FE8 /* Frameworks */,
@@ -208,9 +211,9 @@
 			dependencies = (
 				059D825C1DD5A6AC00F71FE8 /* PBXTargetDependency */,
 			);
-			name = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests";
+			name = ZLYStatusBarHudDemoExampleUITests;
 			productName = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests";
-			productReference = 059D825A1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests.xctest */;
+			productReference = 059D825A1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +238,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 059D82311DD5A6AC00F71FE8 /* Build configuration list for PBXProject "ZLY_StatusBarHud ZLYStatusBarHudDemoExample" */;
+			buildConfigurationList = 059D82311DD5A6AC00F71FE8 /* Build configuration list for PBXProject "ZLYStatusBarHudDemoExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,9 +251,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				059D82351DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample */,
-				059D824E1DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests */,
-				059D82591DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests */,
+				059D82351DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample */,
+				059D824E1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests */,
+				059D82591DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,7 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				059D82541DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleTests.m in Sources */,
+				059D82541DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				059D825F1DD5A6AC00F71FE8 /* ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m in Sources */,
+				059D825F1DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +319,12 @@
 /* Begin PBXTargetDependency section */
 		059D82511DD5A6AC00F71FE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 059D82351DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample */;
+			target = 059D82351DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample */;
 			targetProxy = 059D82501DD5A6AC00F71FE8 /* PBXContainerItemProxy */;
 		};
 		059D825C1DD5A6AC00F71FE8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 059D82351DD5A6AC00F71FE8 /* ZLY_StatusBarHud ZLYStatusBarHudDemoExample */;
+			target = 059D82351DD5A6AC00F71FE8 /* ZLYStatusBarHudDemoExample */;
 			targetProxy = 059D825B1DD5A6AC00F71FE8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,8 +437,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pingco.ZLY-StatusBarHud-ZLYStatusBarHudDemoExample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingco.ZLYStatusBarHudDemoExample;
+				PRODUCT_NAME = ZLYStatusBarHudDemoExample;
 			};
 			name = Debug;
 		};
@@ -445,8 +448,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pingco.ZLY-StatusBarHud-ZLYStatusBarHudDemoExample";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pingco.ZLYStatusBarHudDemoExample;
+				PRODUCT_NAME = ZLYStatusBarHudDemoExample;
 			};
 			name = Release;
 		};
@@ -457,8 +460,8 @@
 				INFOPLIST_FILE = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pingco.ZLY-StatusBarHud-ZLYStatusBarHudDemoExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLY_StatusBarHud ZLYStatusBarHudDemoExample.app/ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
+				PRODUCT_NAME = ZLYStatusBarHudDemoExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYStatusBarHudDemoExample.app/ZLYStatusBarHudDemoExample";
 			};
 			name = Debug;
 		};
@@ -469,8 +472,8 @@
 				INFOPLIST_FILE = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pingco.ZLY-StatusBarHud-ZLYStatusBarHudDemoExampleTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLY_StatusBarHud ZLYStatusBarHudDemoExample.app/ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
+				PRODUCT_NAME = ZLYStatusBarHudDemoExample;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLYStatusBarHudDemoExample.app/ZLYStatusBarHudDemoExample";
 			};
 			name = Release;
 		};
@@ -480,7 +483,7 @@
 				INFOPLIST_FILE = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pingco.ZLY-StatusBarHud-ZLYStatusBarHudDemoExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZLYStatusBarHudDemoExample;
 				TEST_TARGET_NAME = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
 			};
 			name = Debug;
@@ -491,7 +494,7 @@
 				INFOPLIST_FILE = "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pingco.ZLY-StatusBarHud-ZLYStatusBarHudDemoExampleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ZLYStatusBarHudDemoExample;
 				TEST_TARGET_NAME = "ZLY_StatusBarHud ZLYStatusBarHudDemoExample";
 			};
 			name = Release;
@@ -499,7 +502,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		059D82311DD5A6AC00F71FE8 /* Build configuration list for PBXProject "ZLY_StatusBarHud ZLYStatusBarHudDemoExample" */ = {
+		059D82311DD5A6AC00F71FE8 /* Build configuration list for PBXProject "ZLYStatusBarHudDemoExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D82611DD5A6AC00F71FE8 /* Debug */,
@@ -508,29 +511,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		059D82631DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLY_StatusBarHud ZLYStatusBarHudDemoExample" */ = {
+		059D82631DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLYStatusBarHudDemoExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D82641DD5A6AC00F71FE8 /* Debug */,
 				059D82651DD5A6AC00F71FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		059D82661DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleTests" */ = {
+		059D82661DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLYStatusBarHudDemoExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D82671DD5A6AC00F71FE8 /* Debug */,
 				059D82681DD5A6AC00F71FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		059D82691DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests" */ = {
+		059D82691DD5A6AC00F71FE8 /* Build configuration list for PBXNativeTarget "ZLYStatusBarHudDemoExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				059D826A1DD5A6AC00F71FE8 /* Debug */,
 				059D826B1DD5A6AC00F71FE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

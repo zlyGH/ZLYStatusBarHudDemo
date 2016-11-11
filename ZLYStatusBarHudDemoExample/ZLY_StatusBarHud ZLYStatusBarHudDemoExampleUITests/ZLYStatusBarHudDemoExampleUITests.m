@@ -1,6 +1,6 @@
 //
-//  ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests.m
-//  ZLY_StatusBarHud ZLYStatusBarHudDemoExampleUITests
+//  ZLYStatusBarHudDemoExampleUITests.m
+//  ZLYStatusBarHudDemoExampleUITests
 //
 //  Created by pingco on 16/11/11.
 //  Copyright © 2016年 pingco. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests : XCTestCase
+@interface ZLYStatusBarHudDemoExampleUITests : XCTestCase
 
 @end
 
-@implementation ZLY_StatusBarHud_ZLYStatusBarHudDemoExampleUITests
+@implementation ZLYStatusBarHudDemoExampleUITests
 
 - (void)setUp {
     [super setUp];

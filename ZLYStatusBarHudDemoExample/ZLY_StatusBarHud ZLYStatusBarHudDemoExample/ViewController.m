@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  ZLY_StatusBarHud ZLYStatusBarHudDemoExample
+//  ZLYStatusBarHudDemoExample
 //
 //  Created by pingco on 16/11/11.
 //  Copyright © 2016年 pingco. All rights reserved.
